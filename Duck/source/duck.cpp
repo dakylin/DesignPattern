@@ -44,3 +44,13 @@ void Duck::Swim()
 {
     fprintf(stdout, "All kinds of duck can swim.\n");
 }
+
+/*void Duck::SetFlyBehavior(FlyBehavior *flyBehavior)
+{
+    m_FlyBehavior = flyBehavior;
+}
+
+void Duck::SetQuackBehavior(QuackBehavior *quackBehavior)
+{
+    m_QuackBehavior = quackBehavior;
+}*/

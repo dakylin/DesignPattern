@@ -15,11 +15,5 @@ void MallardDuck::Display()
     fprintf(stdout, "I am a real Mallard Duck!\n");
 }
 
-int main()
-{
-    Duck *mallard = new MallardDuck();
-    mallard->PerformFly();
-    mallard->PerformQuack();
-    delete mallard;
-}
+
 
