@@ -11,6 +11,8 @@ public:
     void PerformFly();
     void PerformQuack();
     void Swim();
+    /*void SetFlyBehavior(FlyBehavior *flyBehavior);
+    void SetQuackBehavior(QuackBehavior *quackBehavior);*/
 //private:
 protected:
     FlyBehavior *m_FlyBehavior;
