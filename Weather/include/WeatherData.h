@@ -2,9 +2,9 @@
 #define _WEATHER_DATA_H_
 
 #include "Subject.h"
-#include <list>
+#include <set>
 
-typedef std::list<Observer> ObserverList;
+typedef std::set<Observer> ObserverSet;
 
 class WeatherData : public Subject
 {
@@ -17,7 +17,7 @@ public:
     void MeasurementChanged();
     void SetMeasurements(float temperature, float humidity, float pressure);
 private:
-    ObserverList *observers;
+    ObserverSet observers;
     float m_temperature;
     float m_humidity;
     float m_pressure;
